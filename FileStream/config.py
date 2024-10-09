@@ -12,7 +12,7 @@ class Telegram:
     DATABASE_URL = str(env.get('DATABASE_URL', 'mongodb+srv://hackergaurav02:harsh0711@cluster0.xlfo88p.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "Max_Leech_Zone_Update"))
     SESSION_NAME = str(env.get('SESSION_NAME', 'FileStream'))
-    FORCE_SUB_ID = env.get('FORCE_SUB_ID',)
+    FORCE_SUB_ID = env.get('FORCE_SUB_ID')
     FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', False)
     FORCE_SUB = True if str(FORCE_SUB).lower() == "true" else False
     SLEEP_THRESHOLD = int(env.get("SLEEP_THRESHOLD", "60"))
