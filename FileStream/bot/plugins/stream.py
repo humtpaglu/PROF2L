@@ -94,7 +94,7 @@ async def channel_receive_handler(bot: Client, message: Message):
                                disable_web_page_preview=True)
         print(f"Cᴀɴ'ᴛ Eᴅɪᴛ Bʀᴏᴀᴅᴄᴀsᴛ Mᴇssᴀɢᴇ!\nEʀʀᴏʀ:  **Gɪᴠᴇ ᴍᴇ ᴇᴅɪᴛ ᴘᴇʀᴍɪssɪᴏɴ ɪɴ ᴜᴘᴅᴀᴛᴇs ᴀɴᴅ ʙɪɴ Cʜᴀɴɴᴇʟ!{e}**")
         
-@FileStream.on_message(filters.command(["link"]))
+@Client.on_message(filters.command(["link"]))
 async def group_media_receive_handler(c: Client, m: Message):
     if m.from_user.id == Var.BOT_ID:
         return
