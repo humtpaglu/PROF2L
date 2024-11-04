@@ -148,7 +148,6 @@ async def my_files(bot: Client, message: Message):
 
 @FileStream.on_message(filters.command(["stats"]) & filters.private)
 async def stats_handler(c: Client, m: Message):
-    currentTime = get_readable_time(time.time() - botStartTime)
     total, used, free = shutil.disk_usage(".")
     total = get_readable_file_size(total)
     used = get_readable_file_size(used)
@@ -161,7 +160,6 @@ async def stats_handler(c: Client, m: Message):
     stats = (
         f"<b>╭「 💠 BOT STATISTICS 」</b>\n"
         f"<b>│</b>\n"
-        f"<b>├⏳ Bot Uptime : {currentTime}</b>\n"
         f"<b>├💾 Total Disk Space : {total}</b>\n"
         f"<b>├📀 Total Used Space : {used}</b>\n"
         f"<b>├💿 Total Free Space : {free}</b>\n"
@@ -172,3 +170,8 @@ async def stats_handler(c: Client, m: Message):
         f"<b>╰💿 DISK : {disk}%</b>"
     )
     await m.reply_text(text=stats, quote=True)
+        
+        
+    
+    
+    
