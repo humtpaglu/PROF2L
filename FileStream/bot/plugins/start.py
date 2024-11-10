@@ -145,32 +145,6 @@ async def my_files(bot: Client, message: Message):
     await message.reply_photo(photo=Telegram.FILE_PIC,
                               caption="Total files: {}".format(total_files),
                               reply_markup=InlineKeyboardMarkup(file_list))
-
-@FileStream.on_message(filters.command(["stats"]) & filters.private)
-async def stats_handler(c: Client, m: Message):
-    total, used, free = shutil.disk_usage(".")
-    total = get_readable_file_size(total)
-    used = get_readable_file_size(used)
-    free = get_readable_file_size(free)
-    sent = get_readable_file_size(psutil.net_io_counters().bytes_sent)
-    recv = get_readable_file_size(psutil.net_io_counters().bytes_recv)
-    cpuUsage = psutil.cpu_percent(interval=0.5)
-    memory = psutil.virtual_memory().percent
-    disk = psutil.disk_usage("/").percent
-    stats = (
-        f"<b>╭「 💠 BOT STATISTICS 」</b>\n"
-        f"<b>│</b>\n"
-        f"<b>├💾 Total Disk Space : {total}</b>\n"
-        f"<b>├📀 Total Used Space : {used}</b>\n"
-        f"<b>├💿 Total Free Space : {free}</b>\n"
-        f"<b>├🔺 Total Upload : {sent}</b>\n"
-        f"<b>├🔻 Total Download : {recv}</b>\n"
-        f"<b>├🖥 CPU : {cpuUsage}%</b>\n"
-        f"<b>├⚙️ RAM : {memory}%</b>\n"
-        f"<b>╰💿 DISK : {disk}%</b>"
-    )
-    await m.reply_text(text=stats, quote=True)
-        
         
     
     
