@@ -156,7 +156,7 @@ async def sts(c: Client, m: Message):
         quote=True
     )
 
-@FileStream.on_message(filters.command("status") & filters.private & filters.user(list(Var.OWNER_ID)))
+@FileStream.on_message(filters.command("status") & filters.private & filters.user(list(Telegram.OWNER_ID)))
 async def show_status(client: StreamBot, message: Message):
     """Display the current status of the bot, including workloads per connected bot."""
     try:
@@ -197,7 +197,7 @@ async def show_status(client: StreamBot, message: Message):
             disable_web_page_preview=True
         )
 
-@FileStream.on_message(filters.command("stats") & filters.private & filters.user(list(Var.OWNER_ID)))
+@FileStream.on_message(filters.command("stats") & filters.private & filters.user(list(Telegram.OWNER_ID)))
 async def show_stats(client: StreamBot, message: Message):
     """Display server statistics where the bot is hosted."""
     try:
