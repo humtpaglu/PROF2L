@@ -5,9 +5,9 @@ class LANG(object):
 
     START_TEXT = """
 <b>👋 Hᴇʏ, </b>{}\n 
-<b><blockquote>I'ᴍ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇs sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴀs ᴡᴇʟʟ ᴅɪʀᴇᴄᴛ ʟɪɴᴋs ɢᴇɴᴇʀᴀᴛᴏʀ</blockquote></b>\n
-<b><blockquote>ᴡᴏʀᴋɪɴɢ ᴏɴ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ</blockquote></b>\n
-<b><blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href='https://t.me/Max_Leech_Zone_Update'>「 #𝑷𝑹𝑶𝑭𝑬𝑺𝑺𝑶𝑹」</a></blockquote></b>"""
+<blockquote><b>I'ᴍ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇs sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴀs ᴡᴇʟʟ ᴅɪʀᴇᴄᴛ ʟɪɴᴋs ɢᴇɴᴇʀᴀᴛᴏʀ</b></blockquote>\n
+<blockquote><b>ᴡᴏʀᴋɪɴɢ ᴏɴ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ</b></blockquote>\n
+<blockquote><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href='https://t.me/Max_Leech_Zone_Update'>「 #𝑷𝑹𝑶𝑭𝑬𝑺𝑺𝑶𝑹」</a></b></blockquote>"""
 
     HELP_TEXT = """
 <blockquote><b>- ᴀᴅᴅ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴏɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ</b></blockquote>\n
