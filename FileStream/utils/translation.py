@@ -18,10 +18,10 @@ class LANG(object):
 """
 
     ABOUT_TEXT = """
-<b>⚜ ᴍʏ ɴᴀᴍᴇ : {}</b>\n
-<b>✦ ᴠᴇʀsɪᴏɴ : {}</b>
-<b>✦ ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ : 25-Feb-20245</b>
-<b>✦ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/PROFE07XH'>「 #𝑷𝑹𝑶𝑭𝑬𝑺𝑺𝑶𝑹」📿</a></b>\n
+<blockquote><b>⚜ ᴍʏ ɴᴀᴍᴇ : {}</b></blockquote>\n
+<blockquote><b>✦ ᴠᴇʀsɪᴏɴ : {}</b></blockquote>\n
+<blockquote><b>✦ ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ : 25-Feb-2025</b></blockquote>\n
+<blockquote><b>✦ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/PROFE07XH'>「 #𝑷𝑹𝑶𝑭𝑬𝑺𝑺𝑶𝑹」📿</a></b></blockquote>\n
 """
 
     STREAM_TEXT = """
