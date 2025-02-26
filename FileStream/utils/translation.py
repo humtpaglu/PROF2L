@@ -20,7 +20,7 @@ class LANG(object):
     ABOUT_TEXT = """
 <blockquote><b>⚜ ᴍʏ ɴᴀᴍᴇ : {}</b></blockquote>\n
 <blockquote><b>✦ ᴠᴇʀsɪᴏɴ : {}</b></blockquote>\n
-<blockquote><b>✦ ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ : 25-Feb-2025</b></blockquote>\n
+<blockquote><b>✦ ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ : 26-Feb-2025</b></blockquote>\n
 <blockquote><b>✦ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/PROFE07XH'>「 #𝑷𝑹𝑶𝑭𝑬𝑺𝑺𝑶𝑹」📿</a></b></blockquote>\n
 """
 
