@@ -44,7 +44,7 @@ async def is_user_joined(bot, message: Message):
         if Telegram.VERIFY_PIC:
             ver = await message.reply_photo(
                 photo=Telegram.VERIFY_PIC,
-                caption="<blockquote><i>Jᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🔐</blockquote></i>",
+                caption="<blockquote><i>Jᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🔐</i></blockquote>",
                 parse_mode=ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup(
                 [[
